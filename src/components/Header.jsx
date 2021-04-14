@@ -1,22 +1,28 @@
 import React from 'react';
-import {AppBar, IconButton, Toolbar, Typography, Button} from '@material-ui/core';
-import {MenuIcon} from '@material-ui/icons';
+import { AppBar, IconButton, Toolbar } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
+import SideDrawer from './SideDrawer';
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar
+      position="fixed"
+      style={{
+        backgroundColor: '#2f2f2f',
+        boxShadow: 'none',
+        padding: '10px 0px',
+      }}>
       <Toolbar>
-        <IconButton
-          edge="start"
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="menu">
+        <div className="header_logo">
+          <div className="font_righteous header_logo_venue">The venue</div>
+          <div className="header_logo_title">Musical Events</div>
+        </div>
+
+        <IconButton aria-label="Menu" color="inherit">
           <MenuIcon />
         </IconButton>
-        <Typography variant="h6" className={classes.title}>
-          News
-        </Typography>
-        <Button color="inherit">Login</Button>
+
+        <SideDrawer />
       </Toolbar>
     </AppBar>
   );
