@@ -1,16 +1,18 @@
 import React from 'react';
+import './styles.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Featured from './components/Featured';
-import './styles.css';
+import VenueNfo from './components/VenueNfo';
+import Highlights from './components/Highlights';
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <Featured />
-      <div style={{ backgroundColor: 'red', height: '800px' }}></div>
-      <div style={{ backgroundColor: 'blue', height: '800px' }}></div>
+      <VenueNfo />
+      <Highlights />
       <Footer />
     </div>
   );
