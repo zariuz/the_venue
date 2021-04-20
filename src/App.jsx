@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Featured from './components/Featured';
 import VenueNfo from './components/VenueNfo';
 import Highlights from './components/Highlights';
+import Pricing from './components/Pricing';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Featured />
       <VenueNfo />
       <Highlights />
+      <Pricing />
       <Footer />
     </div>
   );
