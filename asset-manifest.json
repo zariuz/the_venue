@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/the_venue/static/css/main.bb33fd6f.chunk.css",
+    "main.js": "/the_venue/static/js/main.f368dfd4.chunk.js",
+    "main.js.map": "/the_venue/static/js/main.f368dfd4.chunk.js.map",
+    "runtime-main.js": "/the_venue/static/js/runtime-main.245cf0a0.js",
+    "runtime-main.js.map": "/the_venue/static/js/runtime-main.245cf0a0.js.map",
+    "static/css/2.ff34e0d0.chunk.css": "/the_venue/static/css/2.ff34e0d0.chunk.css",
+    "static/js/2.74b2bce8.chunk.js": "/the_venue/static/js/2.74b2bce8.chunk.js",
+    "static/js/2.74b2bce8.chunk.js.map": "/the_venue/static/js/2.74b2bce8.chunk.js.map",
+    "index.html": "/the_venue/index.html",
+    "static/css/2.ff34e0d0.chunk.css.map": "/the_venue/static/css/2.ff34e0d0.chunk.css.map",
+    "static/css/main.bb33fd6f.chunk.css.map": "/the_venue/static/css/main.bb33fd6f.chunk.css.map",
+    "static/js/2.74b2bce8.chunk.js.LICENSE.txt": "/the_venue/static/js/2.74b2bce8.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/the_venue/static/media/slick.c94f7671.ttf",
+    "static/media/slide_one.c0549cdc.jpg": "/the_venue/static/media/slide_one.c0549cdc.jpg",
+    "static/media/slide_three.89588034.jpg": "/the_venue/static/media/slide_three.89588034.jpg",
+    "static/media/slide_two.13a6beb9.jpg": "/the_venue/static/media/slide_two.13a6beb9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.245cf0a0.js",
+    "static/css/2.ff34e0d0.chunk.css",
+    "static/js/2.74b2bce8.chunk.js",
+    "static/css/main.bb33fd6f.chunk.css",
+    "static/js/main.f368dfd4.chunk.js"
+  ]
+}
