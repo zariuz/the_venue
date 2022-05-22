@@ -1,5 +1,5 @@
 import React from 'react';
-import {Zoom} from 'react-awesome-reveal';
+import { Zoom } from 'react-awesome-reveal';
 
 import icon_calendar from '../images/icons/calendar.png';
 import icon_location from '../images/icons/location.png';
@@ -18,9 +18,10 @@ const VenueNfo = () => {
                     className="vn_icon"
                     style={{
                       background: `url(${icon_calendar})`,
-                    }}></div>
+                    }}
+                  ></div>
                   <div className="vn_title">Event Date & Time</div>
-                  <div className="vn_desc">Dec 20, 2021, 20:00</div>
+                  <div className="vn_desc">Dec 24, 2022, 19:00</div>
                 </div>
               </div>
             </div>
@@ -35,7 +36,8 @@ const VenueNfo = () => {
                     className="vn_icon"
                     style={{
                       background: `url(${icon_location})`,
-                    }}></div>
+                    }}
+                  ></div>
                   <div className="vn_title">Event Location</div>
                   <div className="vn_desc">Ice Palace, Saint Petersburg</div>
                 </div>

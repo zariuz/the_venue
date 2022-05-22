@@ -1,5 +1,5 @@
-import React, {useState, useEffect, useCallback} from 'react';
-import {Slide} from 'react-awesome-reveal';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Slide } from 'react-awesome-reveal';
 
 const TimeUntil = () => {
   const [time, setTime] = useState({
@@ -36,7 +36,7 @@ const TimeUntil = () => {
   }, []);
 
   useEffect(() => {
-    setInterval(() => getTimeUntil('Dec, 20, 2021, 01:20:00'), 1000);
+    setInterval(() => getTimeUntil('Dec, 24, 2022, 19:00:00'), 1000);
   }, [getTimeUntil]);
 
   return (
